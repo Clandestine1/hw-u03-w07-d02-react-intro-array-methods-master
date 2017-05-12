@@ -1,0 +1,17 @@
+
+img{
+	display:inline-block;
+}
+
+@media only screen and (max-width: 640px) {
+	#mov-wrapper{
+			text-align: center;
+	}
+	#mov-wrapper img{
+		height:100px;
+		width:80px;
+	}
+	#mov-wrapper h1{
+		font-size:8px;
+	}
+}
